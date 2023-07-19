@@ -7,7 +7,7 @@
     font-family: "Poppins",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
     .banner >p{
-        width: 8%;
+        width: auto23%;
         color:#373434;
         font-size: 24px;
         font-weight: 500;
@@ -20,7 +20,7 @@
         padding: 1%;
         text-align: center;}
             .logo {
-                width: 73px;
+                width: 60px;
                 height: 60px;
                 padding: 1%;
             }
@@ -37,13 +37,11 @@
                 font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-weight: 400; 
                 }
-.hero {
+.heroimg {
     margin-left: 6%;
     margin-right: 6%;
     vertical-align: middle;
-    }
-     .heroimg {
-    height: 1000px;
+    height: 800px;
     padding:55px, 75px;
     display: flex;
     }
@@ -57,7 +55,7 @@
         display: flex;
         flex-direction: row;
     }
-    .intro >H1 {
+    .intro>H1 {
         margin-left: 75px;
         text-align: left;
         font-family: 'Poppins','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -67,28 +65,27 @@
         letter-spacing: 4px;
         color:#227e83
     }
-    .intro >p {
+    .intro>p {
         margin-left: 75px;
         width: 581px;
         color:#373434;
         font-size: 40px;
         font-family: 'Poppins','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 400;
-
+    } 
+.work {
+    margin-left: 6%;
+    margin-right: 6%;
+    justify-content: right;
+    vertical-align: top;
+    height: 300;
+    padding:55px, 75px;
+    display: flex;
 }
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    vertical-align:top;
-    background-color: white;
-    text-align: left;
-    padding-top: 1%;
-    padding-bottom: 1%;
-   }
-    .footer >H1 {
-        margin-left: 6%;
-        margin-right: 6%;
+    .work>H1 {
+        right: 0px; 
+        width: 500px;
+        padding: 10px;
         font-family: 'Poppins','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 80px;
         font-weight: 700;
@@ -96,21 +93,82 @@
         letter-spacing: 4px;
         color:#227e83
     }
-    .footer >p {
+
+#CaseStudiesGrid {
+    margin-left: 6%;
+    margin-right: 6%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "case1 case2 case3";
+        
+}
+    #case1 {
+        grid-area: case1;
+            }    
+    #case2 {
+        grid-area: case2;
+    }
+    #case3 {
+        grid-area: case3;
+    }
+
+.container>h4{
+color: #373434;
+font-family: "Poppins",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+font-size: 26px;
+width: 320px;
+
+}
+    .container>p {
+color: #373434;
+font-family: "Poppins",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+font-size: 24px;
+width: 320px;
+}
+.container {
+        display:inline;
+        height: 558px;
+        width:340px;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba (0,0,0,0.2);
+        transition: 0.3;
+        border-radius: 8px;
+    }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    vertical-align:top;
+    background-color: white;
+    text-align: left;
+    }
+    .footer >H1 {
         margin-left: 6%;
         margin-right: 6%;
+        font-family: 'Poppins','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 90px;
+        letter-spacing: 4px;
+        color:#227e83
+    }
+    .footer >p {
+        margin-left: 6%;
         width:15%;
         font-size: 24px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1.20px;
-        text-align: center;
+        text-align: left;
         word-wrap: normal;
     }
     
-    .footer >link {
+    .footer >address {
         margin-left: 6%;
-        margin-right: 6%;
         text-align: left;
         color: #373434;
         font-family: "Poppins",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
